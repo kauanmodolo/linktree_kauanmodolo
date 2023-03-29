@@ -1,0 +1,77 @@
+html, body {
+  height: 100vh;
+  position: relative;
+}
+.eu {
+  border-radius: 50%;
+  width: 95px;
+  height: 95px;
+  box-sizing: border-box;
+  border: 2px solid #bb99dd;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.name {
+  text-align: center;
+  color: #bb99dd;
+  font-family: "Cookie", cursive;
+  font-size: 29px;
+}
+.links {
+  color: #bb99dd;
+  font-weight: 600;
+  text-align: center;
+}
+
+.insta{
+  border: 2px solid #BB99DD;
+  border-radius: 4px;
+  color: #BB99DD;
+  font-weight: 600;
+  padding-left: 6.5%;
+  padding-right: 6.5%;
+}
+
+.git{ 
+  border: 2px solid #BB99DD;
+  border-radius: 4px;
+  color: #BB99DD;
+  font-weight: 600;
+  padding-left: 9.5%;
+  padding-right: 9.5%;
+}
+.linke{
+  border: 2px solid #BB99DD;
+  border-radius: 4px;
+  color: #BB99DD;
+  font-weight: 600;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.png {
+  text-align: center;
+}
+
+.container {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  position: absolute;               
+  top: 50%;                         
+  transform: translate(50%, -50%)    
+}
+
+.col-1 {width: 8.33%;} 
+.col-2 {width: 16.66%;} 
+.col-3 {width: 25%;} 
+.col-4 {width: 33.33%;} 
+.col-5 {width: 41.66%;} 
+.col-6 {width: 50%;} 
+.col-7 {width: 58.33%;} 
+.col-8 {width: 66.66%;} 
+.col-9 {width: 75%;} 
+.col-10 {width: 83.33%;} 
+.col-11 {width: 91.66%;} 
+.col-12 {width: 100%;}
