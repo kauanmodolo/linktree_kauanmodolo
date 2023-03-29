@@ -75,3 +75,31 @@ html, body {
 .col-10 {width: 83.33%;} 
 .col-11 {width: 91.66%;} 
 .col-12 {width: 100%;}
+@media only screen and (max-width: 422px) {
+  .container {
+    width: 50%;
+    padding: 10px;
+    top:50%;
+    transform: translate(50%, -50%);
+    
+  }
+  .eu {
+    width: 75px;
+    height: 75px;
+  }
+  .name {
+    font-size: 20px;
+  }
+  .links {
+    font-size: 15px;
+
+  }
+  .insta {
+    padding-left: 6.5%;
+  padding-right: 6.5%;
+  }
+html,body{
+  height:100vh;
+  position: relative;
+}
+
