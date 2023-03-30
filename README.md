@@ -4,7 +4,7 @@
 Este é um projeto de um website de uma linktree para conectar/direcionar os usuários aos meus perfis do Instagram, Linkedin e Github. O maior desafio na construção foi de deixar o CSS responsivo para diversas telas.
 
 # 🚀 TECNOLOGIAS
-Estas são as tecnologias utilizadas no projeto:
+Essas são as tecnologias utilizadas no projeto:
 <br>
 -HTML
 <br>
