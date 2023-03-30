@@ -57,7 +57,7 @@ html, body {
 .container {
   margin: auto;
   width: 50%;
-  padding: 10px;
+  padding: 0px;
   position: absolute;               
   top: 50%;                         
   transform: translate(50%, -50%)    
@@ -75,10 +75,10 @@ html, body {
 .col-10 {width: 83.33%;} 
 .col-11 {width: 91.66%;} 
 .col-12 {width: 100%;}
-@media only screen and (max-width: 422px) {
+@media only screen and (min-width: 0px) and (max-width: 422px){
   .container {
     width: 50%;
-    padding: 10px;
+    padding: 0px;
     top:50%;
     transform: translate(50%, -50%);
     
@@ -103,3 +103,56 @@ html,body{
   position: relative;
 }
 
+}
+
+@media only screen and (min-width: 2300px) and (max-width: 2560px){
+  .container {
+    width: 50%;
+    padding: 0px;
+    top:50%;
+    transform: translate(50%, -50%);}
+    .links {
+      font-size: 40px;}
+      .name{
+       font-size: 80px;
+        
+      }
+      .eu{
+        width: 300px;
+    height: 300px;
+      }}
+    
+
+      
+      @media only screen and (min-width: 1440px) and (max-width: 2559px){
+    
+        .container {
+          width: 50%;
+          padding: 0px;
+          top:50%;
+          transform: translate(50%, -50%);}
+          .links {
+            font-size: 20px;}
+            .name{
+             font-size: 50px;
+            }
+            .eu{
+              width: 150px;
+          height: 150px;
+            }}
+          
+            @media only screen and (min-width: 2000px) and (max-width: 2299px){
+              .container {
+                width: 50%;
+                padding: 0px;
+                top:50%;
+                transform: translate(50%, -50%);}
+                .links {
+                  font-size: 35px;}
+                  .name{
+                   font-size: 70px;
+                  }
+                  .eu{
+                    width: 250px;
+                height: 250px;
+                  }}
