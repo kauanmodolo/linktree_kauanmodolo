@@ -22,6 +22,7 @@ html, body {
   color: #bb99dd;
   font-weight: 600;
   text-align: center;
+  text-decoration: none;
 }
 
 .insta{
@@ -29,8 +30,15 @@ html, body {
   border-radius: 4px;
   color: #BB99DD;
   font-weight: 600;
-  padding-left: 6.5%;
-  padding-right: 6.5%;
+  padding-left: 7vh;
+  padding-right: 7vh;
+  text-decoration: none;
+  transition: 0.3s;
+  border-radius: 8px;
+}
+.insta:hover{
+cursor: pointer;
+background-color:#d8cbe5 ;
 }
 
 .git{ 
@@ -38,20 +46,36 @@ html, body {
   border-radius: 4px;
   color: #BB99DD;
   font-weight: 600;
-  padding-left: 9.5%;
-  padding-right: 9.5%;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  text-decoration: none;
+  transition: 0.3s;
+  border-radius: 8px;
 }
+.git:hover{
+  cursor: pointer;
+  background-color:#d8cbe5 ;
+}
+
 .linke{
   border: 2px solid #BB99DD;
   border-radius: 4px;
   color: #BB99DD;
   font-weight: 600;
-  padding-left: 8%;
-  padding-right: 8%;
+  padding-left: 8.5vh;
+  padding-right: 8.5vh;
+  text-decoration: none;
+  transition: 0.3s;
+  border-radius: 8px;
+}
+.linke:hover{
+  cursor: pointer;
+  background-color:#d8cbe5 ;
 }
 
 .png {
   text-align: center;
+  transition: 0.3;
 }
 
 .container {
@@ -76,83 +100,73 @@ html, body {
 .col-11 {width: 91.66%;} 
 .col-12 {width: 100%;}
 @media only screen and (min-width: 0px) and (max-width: 422px){
-  .container {
-    width: 50%;
-    padding: 0px;
-    top:50%;
-    transform: translate(50%, -50%);
-    
-  }
-  .eu {
-    width: 75px;
-    height: 75px;
-  }
-  .name {
-    font-size: 20px;
-  }
-  .links {
-    font-size: 15px;
-
-  }
-  .insta {
-    padding-left: 6.5%;
-  padding-right: 6.5%;
-  }
+.container {
+ width: 50%;
+ padding: 0px;
+ top:50%;
+ transform: translate(50%, -50%);}
+.eu {
+ width: 90px;
+ height: 90px;}
+.name {
+ font-size: 28px;}
+.links {
+ font-size: 15px;}
+.insta {
+ padding-left: 20%;
+ padding-right: 20%;}
+.git{
+ padding-left: 27%;
+ padding-right: 27%;}
+.linke{
+ padding-left: 23%;
+ padding-right: 23%;}
 html,body{
-  height:100vh;
-  position: relative;
-}
-
-}
+ height:100vh;
+ position: relative;}}
 
 @media only screen and (min-width: 2300px) and (max-width: 2560px){
-  .container {
-    width: 50%;
-    padding: 0px;
-    top:50%;
-    transform: translate(50%, -50%);}
-    .links {
-      font-size: 40px;}
-      .name{
-       font-size: 80px;
-        
-      }
-      .eu{
-        width: 300px;
-    height: 300px;
-      }}
+.container {
+ width: 50%;
+ padding: 0px;
+ top:50%;
+ transform: translate(50%, -50%);}
+.links {
+ font-size: 40px;}
+.name{
+ font-size: 80px;}
+.eu{
+ width: 300px;
+ height: 300px;}}
     
 
       
-      @media only screen and (min-width: 1440px) and (max-width: 2559px){
+@media only screen and (min-width: 1440px) and (max-width: 2559px){
     
-        .container {
-          width: 50%;
-          padding: 0px;
-          top:50%;
-          transform: translate(50%, -50%);}
-          .links {
-            font-size: 20px;}
-            .name{
-             font-size: 50px;
-            }
-            .eu{
-              width: 150px;
-          height: 150px;
-            }}
+.container {
+ width: 50%;
+ padding: 0px;
+ top:50%;
+ transform: translate(50%, -50%);}
+.links {
+ font-size: 20px;}
+.name{
+ font-size: 50px;}
+.eu{
+ width: 150px;
+ height: 150px;}}
           
-            @media only screen and (min-width: 2000px) and (max-width: 2299px){
-              .container {
-                width: 50%;
-                padding: 0px;
-                top:50%;
-                transform: translate(50%, -50%);}
-                .links {
-                  font-size: 35px;}
-                  .name{
-                   font-size: 70px;
-                  }
-                  .eu{
-                    width: 250px;
-                height: 250px;
-                  }}
+@media only screen and (min-width: 2000px) and (max-width: 2299px){
+.container {
+ width: 50%;
+ padding: 0px;
+ top:50%;
+ transform: translate(50%, -50%);}
+.links {
+ font-size: 35px;}
+.name{
+ font-size: 70px;}
+.eu{
+ width: 250px;
+ height: 250px;
+}}
